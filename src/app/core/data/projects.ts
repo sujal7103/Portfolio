@@ -97,7 +97,7 @@ export default {
       "projects/Sujal/image-2.png",
       "projects/Sujal/image-3.png",
     ],
-    name: "sujalpatil.dev",
+    name: "Portfolio Site",
     about: [
       "This is literally the site you're on. Built with simplicity in mind to achieve a minimalistic design that matches my personality.",
     ],
@@ -107,7 +107,7 @@ export default {
     category: "Project",
     isFeatured: false,
     links: {
-      git: { link: "https://github.com/sujal7103/portfolio-site" },
+      git: { link: "https://github.com/sujal7103/Portfolio.git" },
       web: { link: "https://sujalpatil.me" },
     },
     tools: ["angular", "typescript", "scss"],
