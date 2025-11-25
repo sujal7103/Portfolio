@@ -2,6 +2,13 @@ import { IExperience } from "../models";
 
 export default [
   {
+    from: "Jul 2025",
+    to: "Nov 2025",
+    company: "Safeeds Auto Transport Inc",
+    description: "Engineered and optimized SEO-driven web architecture using Next.js middleware, canonical URL routing, and structured JSON-LD, improving page ranking and crawlability. Built secure user flows—JWT-based authentication, password resets, and form validation—to enhance reliability and data integrity. Developed an interactive U.S. state-map interface with real-time API lookups and optimized SSR caching, improving performance metrics and reducing latency. Created interactive USA map with 50-state SVG navigation and hover tooltips integrated zipcode/city autocomplete search with backend API. Implemented CDN caching, code splitting, and SSR CSS extraction, improving Core Web Vitals by 35%.",
+    role: "Full-Stack Developer"
+  },
+  {
     from: "May 2025",
     to: "July 2025",
     company: "Techori.in",
