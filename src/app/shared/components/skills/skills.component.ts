@@ -34,43 +34,43 @@ export class SkillsComponent implements OnInit, AfterContentChecked {
       id: 'scss',
       image: 'assets/skills/scss.png',
       name: 'SCSS/Sass',
-      categories: ['Web']
+      categories: ['Frontend']
     },
     'angular': {
       id: 'angular',
       image: 'assets/skills/angular.png',
       name: 'Angular',
-      categories: ['Web']
+      categories: ['Frontend']
     },
     'react': {
       id: 'react',
       image: 'assets/skills/react.png',
       name: 'React',
-      categories: ['Web']
+      categories: ['Frontend']
     },
     'nextjs': {
       id: 'nextjs',
       image: 'assets/skills/nextjs.png',
       name: 'Next.js',
-      categories: ['Web']
+      categories: ['Frontend']
     },
     'tailwind': {
       id: 'tailwind',
       image: 'assets/skills/tailwind.png',
       name: 'Tailwind CSS',
-      categories: ['Web']
+      categories: ['Frontend']
     },
     'jest': {
       id: 'jest',
       image: 'assets/skills/jest.png',
       name: 'Jest',
-      categories: ['Others']
+      categories: ['Backend']
     },
     'axios': {
       id: 'axios',
       image: 'assets/skills/axios.png',
       name: 'Axios',
-      categories: ['Web']
+      categories: ['Backend']
     }
   };
 
@@ -116,7 +116,7 @@ export class SkillsComponent implements OnInit, AfterContentChecked {
               id: skillId,
               image: '',  // No image
               name: this.formatToolName(skillId),
-              categories: category ? [category] : ['Others']
+              categories: category ? [category] : ['Languages']
             };
             this.list.push(placeholderTool);
           }

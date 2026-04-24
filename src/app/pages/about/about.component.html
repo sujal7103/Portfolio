@@ -10,12 +10,11 @@
       </div>
       <div class="content-left">
         <h2 class="sub-section-title">Hello world</h2>
-        <p>Hi, I’m Sujal Patil, Front-End Developer currently based in Gwalior and I love what I do.</p>
-        <p>I started my career as a IT student where I built my fundamentals in the subjects. Then I transitioned into front-end development, focusing on creating interactive user interfaces, while also gaining some exposure to backend development..</p>
-        <p>Currently, I’m working as a Front-End Developer Intern at Techori. Here, I’m contributing to the development of responsive and user-friendly web interfaces using React.js, Tailwind CSS, and JavaScript. I’ve been involved in building reusable UI components, improving performance, and collaborating closely with the backend team to integrate APIs and ensure seamless user experience. This hands-on experience is sharpening my skills in real-world product development and strengthening my understanding of scalable frontend architecture.</p>
-        <p>I'm thrilled by design and logic,For fun I'm either playing
-          badminton 🏸, whipping my friends on FIFA 🎮, sharing memes 🤡, doing some art work 🎨 or working out at the
-          gym 🏋🏽‍♂️.</p>
+        <p>Hi, I’m Sujal Patil — and I really enjoy building things, especially when they push me to understand how systems actually work beneath the surface.</p>
+        <p>Most of my time is spent in the TypeScript/JavaScript ecosystem, though Python has become just as natural for backend and AI work. I like exploring problems from different angles: designing a retrieval pipeline, wiring up a multi-agent system, or shipping a clean UI end-to-end — the whole stack is fair game.</p>
+        <p>I’m currently a Founding Engineer at Maximem AI, where I own Echo — our AI persona product — from ingestion and retrieval to memory graphs and chat. It’s the kind of work that keeps you honest about systems design.</p>
+        <p>Lately I’ve been going deeper into LLMs, vector search, and the patterns that make AI systems fast and reliable in production. I love connecting theory to practice through books, papers, and things that actually ship.</p>
+        <p>When I’m not writing code, I’m probably on the badminton court 🏸, destroying friends on FIFA 🎮, or at the gym 🏋🏽‍♂️.</p>
         <!-- <p>Because I'm a huge Angular fan ❤️ this site was built with Angular and without any CSS/animation libraries. </p> -->
 
         <div class="button-container">
@@ -40,14 +39,12 @@
   <section class="sub-section container">
     <h2 class="sub-section-title">My Recipes</h2>
     <div class="tabs">
-      <span [ngClass]="{'active': toolTab == 'Languages'}" class="tab"
-        (click)="switchToolTab('Languages')">Languages</span>
-      <span [ngClass]="{'active': toolTab == 'Web'}" class="tab" (click)="switchToolTab('Web')">Web</span>
-      <!-- <span [ngClass]="{'active': toolTab == 'Mobile'}" class="tab" (click)="switchToolTab('Mobile')">Mobile</span>
-      <span [ngClass]="{'active': toolTab == 'Blockchain'}" class="tab"
-        (click)="switchToolTab('Blockchain')">Blockchain</span> -->
-      <span [ngClass]="{'active': toolTab == 'Design'}" class="tab" (click)="switchToolTab('Design')">Machine Learning</span>
-      <span [ngClass]="{'active': toolTab == 'Others'}" class="tab" (click)="switchToolTab('Others')">Others</span>
+      <span [ngClass]="{'active': toolTab == 'Languages'}" class="tab" (click)="switchToolTab('Languages')">Languages</span>
+      <span [ngClass]="{'active': toolTab == 'Frontend'}" class="tab" (click)="switchToolTab('Frontend')">Frontend</span>
+      <span [ngClass]="{'active': toolTab == 'Backend'}" class="tab" (click)="switchToolTab('Backend')">Backend</span>
+      <span [ngClass]="{'active': toolTab == 'GenAI'}" class="tab" (click)="switchToolTab('GenAI')">GenAI / LLM</span>
+      <span [ngClass]="{'active': toolTab == 'Cloud'}" class="tab" (click)="switchToolTab('Cloud')">Cloud / DevOps</span>
+      <span [ngClass]="{'active': toolTab == 'Databases'}" class="tab" (click)="switchToolTab('Databases')">Databases</span>
     </div>
     <app-skills [toolsSubject]="toolsSubject"></app-skills>
     <span class="sec-close-bracket">}</span>

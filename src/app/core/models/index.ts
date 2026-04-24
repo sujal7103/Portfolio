@@ -1,6 +1,6 @@
 export type Category = "Web" | "Design" | "Playground" | "Others" | "Project"
 export type FeatureType = "Award" | "Talk"
-export type ToolType = "Languages" | "Design" | "Web" | "Others" | "Blockchain" | "Mobile"
+export type ToolType = "Languages" | "Frontend" | "Backend" | "GenAI" | "Cloud" | "Databases"
 
 
 export interface ITool {

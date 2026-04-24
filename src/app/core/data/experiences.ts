@@ -2,32 +2,38 @@ import { IExperience } from "../models";
 
 export default [
   {
+    from: "Jan 2026",
+    to: "Present",
+    company: "Maximem AI",
+    description: "Built Maximem's Echo product end-to-end across backend, frontend, and proxy layers, owning the full lifecycle from persona creation and expertise setup to ingestion, publishing, and chat. Created a retrieval and memory-graph engine with parallel query decomposition, batched vector search, Redis L2 graph caching, and request-scoped traversal, improving recall quality while keeping latency production-viable. Shipped personalization systems combining live query relevance, long-term profile affinity, memories, and voice/context signals to rank snippets and enhance prompts with user-specific context at runtime. Productized agent memory recall with token-budget enforcement, LLM compression fallback, and phase-level observability so external agents could inject context reliably within prompt limits.",
+    role: "Founding Engineer"
+  },
+  {
     from: "Jul 2025",
     to: "Nov 2025",
     company: "Safeeds Auto Transport Inc",
-    description: "Engineered and optimized SEO-driven web architecture using Next.js middleware, canonical URL routing, and structured JSON-LD, improving page ranking and crawlability. Built secure user flows—JWT-based authentication, password resets, and form validation—to enhance reliability and data integrity. Developed an interactive U.S. state-map interface with real-time API lookups and optimized SSR caching, improving performance metrics and reducing latency. Created interactive USA map with 50-state SVG navigation and hover tooltips integrated zipcode/city autocomplete search with backend API. Implemented CDN caching, code splitting, and SSR CSS extraction, improving Core Web Vitals by 35%.",
-    role: "Full-Stack Developer"
+    description: "Architected an SEO-first Next.js web platform using middleware, canonical routing, and structured JSON-LD, improving crawlability and search visibility. Built secure, high-performance user flows with JWT authentication, password resets, form validation, SSR caching, and real-time API integrations.",
+    role: "Full-Stack Developer (Contract)"
   },
   {
     from: "May 2025",
-    to: "July 2025",
+    to: "Jul 2025",
     company: "Techori.in",
-    description: "At Techori, I worked as a Frontend Developer Intern, contributing to the development of web applications with a focus on user interface and user experience. I was responsible for creating responsive layouts and dynamic features using modern front-end technologies. During my tenure, I collaborated closely with the design and backend teams to ensure seamless integration, while also gaining hands-on experience with version control and basic backend functionalities.",
-    role: "Full Stack Developer Intern"
+    description: "Refactored the admin dashboard into a TypeScript SPA backed by scalable AWS Lambda APIs, async workflows, and JWT-protected endpoints, improving performance and reducing duplicate-data conflicts by 90%.",
+    role: "Fullstack Developer Intern"
   },
   {
     from: "Jan 2025",
-    to: "May 2025",
+    to: "Apr 2025",
     company: "NoBroker.com",
-    description: "I worked as a Front-End Developer Intern at NoBroker.com, where I played a key role in the Van Rental project, aimed at streamlining the vehicle booking experience for users. My responsibilities included designing and developing responsive, user-friendly interfaces, building reusable components, and integrating RESTful APIs to enable real-time data updates.",
+    description: "Modernized CMS build and validation workflows with Vite and Python automation, cutting build times by 85–90% and improving release efficiency.",
     role: "Software Developer Intern"
   },
   {
-    from: "June 2021",
+    from: "Sept 2021",
     to: "May 2025",
     company: "Madhav Institute of Technology & Science",
-    description: "B-tech in Information Technology ",
+    description: "B.Tech in Information Technology — CGPA: 7.38/10",
     role: "Undergraduate"
   },
-  
 ] as IExperience[]
